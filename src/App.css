@@ -1,0 +1,255 @@
+.fLeft{
+  float:left;
+  width:25%;
+  background-color: rgb(192, 189, 189);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+
+.fleft button:focus{
+  color:rgb(34, 120, 240);
+}
+
+.fLeft button{
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-size: large;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: rgb(225, 222, 222);
+  text-align: left;
+  padding-left: 20px;
+}
+
+.AllScenarios{
+   background-color: rgb(37, 37, 37);
+   color:beige;
+   height:100vh;
+}
+
+table{
+  margin-left: 460px;
+  margin-top:20px;
+  padding:10px;
+  
+}
+th{
+  background-color: rgb(85, 85, 85);
+  padding:10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height:50px;
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: none;
+  padding-right: 20px;
+  border-radius: 2px;
+}
+
+td{
+  background-color: rgb(208, 207, 207);
+  padding:10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height:50px;
+  font-size: 15px;
+  padding-left: 25px;
+  font-weight: none;
+  color:black;
+  padding-right: 20px;
+}
+
+.AllScenarios p{
+  padding:30px;
+  padding-left: 450px;
+  padding-top: 50px;
+}
+
+.AllScenarios i{
+  font-size: large;
+}
+
+.AllScenarios button{
+  float:right;
+  border-radius: 5px;
+  margin-right: 20px;
+  color:white;
+  border-style: none;
+  height: 37px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.addscenario{
+  background-color: rgb(37, 37, 37);
+  color:beige;
+  height:100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.addscenario h4{
+  padding:20px;
+  padding-left: 450px;
+}
+
+.addscenario h2{
+  padding:20px;
+  padding-left: 450px;
+}
+
+form{
+  background-color: rgb(49, 48, 48);
+  padding:20px;
+  margin-left: 450px;
+  width:870px;
+  height:150px;
+}
+
+form input{
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: none;
+    width:250px;
+    background-color: rgb(43, 42, 42);
+    height:35px;
+    margin-top: 5px;
+    padding:2px;
+    margin-right: 20px;
+    color:gray;
+    position:static;
+}
+
+form label{
+  font-weight: bold;
+  font-size: medium;
+  
+}
+
+form span{
+  color:white;
+  background-color: rgb(139, 32, 32);
+  font-size: 12px;
+  padding: 3px;
+  margin:5px;
+  border-radius: 5px;
+}
+
+form select{
+  border-radius: 4px;
+    border-style:solid;
+    border-color: none;
+    width:250px;
+    background-color: rgb(43, 42, 42);
+    height:35px;
+    margin-top: 5px;
+    padding:2px;
+    margin-right: 20px;
+    color: gray;
+}
+form select option{
+  padding:3px;
+}
+
+.but{
+  margin-top:150px;
+}
+
+.but button{
+  border-radius: 5px;
+  color:white;
+  border-style: none;
+  height: 37px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:10px;
+}
+
+.butv{
+   margin-top: 250px;
+}
+
+.butv button{
+  border-radius: 5px;
+  color:white;
+  border-style: none;
+  height: 37px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:10px;
+}
+
+.Home{
+  background-color: rgb(37, 37, 37);
+  color:beige;
+  height:100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Home label{
+  padding-top:20px;
+  padding-left: 75px;
+  font-size: large;
+}
+
+.Home select{
+  margin-left: 75px;
+  border-radius: 4px;
+    border-style:solid;
+    border-color: none;
+    width:230px;
+    background-color: rgb(43, 42, 42);
+    height:35px;
+    margin-top: 5px;
+    padding:2px;
+    color: gray;
+}
+
+.Home button{
+  float:right;
+  border-radius: 5px;
+  color:white;
+  border-style: none;
+  height: 37px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:10px;
+}
+
+.Home img{
+  margin-top:40px;
+  margin-left:75px;
+  border:3px solid green;
+  position: absolute;
+}
+
+.circle{
+  
+  position:relative;
+  left:77px;
+  top:50px;
+  background-color: red;
+  border-radius: 50%;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin:5px;
+  display: inline-block;
+  transition-timing-function: linear;
+}
+
+.start{
+  animation-play-state: running;
+}
+
+.stop{
+  animation-play-state: paused;
+}
+
+

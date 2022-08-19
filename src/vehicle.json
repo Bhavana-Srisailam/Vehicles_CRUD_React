@@ -1,0 +1,30 @@
+{"Vehicle":[
+    {
+        "id": 1,
+        "vehicle_name":"Car",
+        "Position_X":500,
+        "Position_Y":50,
+        "Speed":2,
+        "Direction":"Upwards",
+        "Scenario_name":"Test Scenario"
+    },
+    {
+        "id": 2,
+        "vehicle_name":"Jeep",
+        "Position_X":450,
+        "Position_Y":300,
+        "Speed":5,
+        "Direction":"Downwards",
+        "Scenario_name":"My Scenario"
+
+    },
+    {
+        "id": 3,
+        "vehicle_name":"Bus",
+        "Position_X":30,
+        "Position_Y":215,
+        "Speed":4,
+        "Direction":"Towards",
+        "Scenario_name":"Test Scenario"
+    }
+]}
